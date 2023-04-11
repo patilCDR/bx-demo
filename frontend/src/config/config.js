@@ -1,5 +1,5 @@
 // const rootUrl = "http://localhost:5000";
-const rootUrl = "https://book-expert-demo.onrender.com";
+const rootUrl = "https://bookxpert.onrender.com";
 
 export const getConfig = () => ({
   baseUrl: rootUrl,

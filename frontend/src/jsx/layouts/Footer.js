@@ -1,5 +1,9 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const Footer = () => {
   const location = useLocation();
@@ -11,7 +15,7 @@ const Footer = () => {
         <div className="container">
           <div className="d-flex align-items-center justify-content-between flex-wrap h-100">
             <div className="my-auto d-flex align-items-center">
-              <p className="text-white">
+              <p className="text-white  text-center  text-lg-right my-1 ">
                 Copyright &copy; 2023 All Rights Reserved by
                 <a
                   href="http://www.bookxpert.co.in/"
@@ -22,43 +26,43 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-            <div>
-              <ul className="social-icons d-flex align-items-center ">
+            <div className="d-flex align-items-center justify-content-between flex-wrap ">
+              <ul className="social-icons d-flex align-items-center  ">
                 <li>
                   <a
-                    className="facebook "
+                    className="facebook mx-2"
                     href="https://www.facebook.com/Bookxpert.co.in/"
                     target="blank"
                   >
-                    <i className="bi bi-facebook fa-6x text-primary m-3"></i>
+                    <FacebookIcon />
                   </a>
                 </li>
                 <li>
                   <a
-                    className="LinkedIn"
+                    className="LinkedIn mx-2"
                     href="https://www.linkedin.com/jobs/view/practising-chartered-accountant-at-bookxpert-pvt-ltd-3560040416/?originalSubdomain=in"
                     target="blank"
                   >
-                    <i class="bi bi-linkedin fa-6x text-warning m-3"></i>
+                    <LinkedInIcon />
                   </a>
                 </li>
                 <li>
                   <a
-                    className="twitter"
+                    className="twitter mx-2"
                     href="https://twitter.com/xpertbook?lang=en"
                     target="blank"
                   >
-                    <i className="bi bi-twitter fa-6x text-primary m-3"></i>
+                    <TwitterIcon />
                   </a>
                 </li>
 
                 <li>
                   <a
-                    className="youtube"
+                    className="youtube mx-2"
                     href="https://www.youtube.com/channel/UCr8d2DH7b3SrgxLh79VDrnA?app=desktop"
                     target="blank"
                   >
-                    <i className="bi bi-youtube fa-6x text-danger m-3"></i>
+                    <YouTubeIcon />
                   </a>
                 </li>
               </ul>

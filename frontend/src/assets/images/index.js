@@ -8,6 +8,9 @@ import webappImg from "./webapp.webp";
 import mobileAppImg from "./mobileapp.webp";
 import uiuxImg from "./uiux.webp";
 import moduleOperationImg from "./moduleoperation.webp";
+import carouselImg1 from "./carousel1.avif";
+import carouselImg2 from "./carousel2.avif";
+import carouselImg3 from "./carousel3.avif";
 
 export {
   aboutImg,
@@ -20,4 +23,7 @@ export {
   mobileAppImg,
   uiuxImg,
   moduleOperationImg,
+  carouselImg1,
+  carouselImg2,
+  carouselImg3,
 };
